@@ -67,7 +67,7 @@ ggplot(data = daily_activity, mapping = aes(x = TotalSteps, y = Calories, color=
   stat_smooth(method=lm)+
   labs(title="Total Steps vs Calories")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/totalSteps%20vs%20calories.png)
 
 It would be expected that if user spends most of their time sedentary then their calorie burned must be less but turns out its not true for this data. Here it can be seen even the users who spend most of their time sedentary had also burnt out around 1,500 to 3000 calories compare to users who are more active.
 
@@ -78,7 +78,7 @@ ggplot(data = daily_activity, mapping = aes(x = TotalSteps, y = TotalDistance)) 
   stat_smooth(method=lm)+
   labs(title="Total Steps vs Total Distance")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/TotalSteps%20vs%20TotalDistance.png)
 
 More the number of steps, more the distance covered.
 
@@ -94,7 +94,7 @@ ggplot(data = hourlySteps, aes(x=ActivityHour, y=sum_steps, fill=ActivityHour)) 
   theme(axis.text.x = element_text(angle = 45))+
   labs(title = "Hourly Steps")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/hourly%20steps.png)
 
 It is clear that most steps are taken between 5PM to 7PM.
 
@@ -111,7 +111,7 @@ ggplot(data = dailyActivity_week, aes(x=Weekday, y=Total_steps, fill=Weekday)) +
   theme(axis.text.x = element_text(angle = 45))+
   labs(title = "Steps according to weekdays")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/steps%20acc%20to%20weekdays.png)
 
 It is interesting to find out that Saturday is most active since its avg steps are more and Sunday is most lazy day due to its avg step count.
 
@@ -126,7 +126,7 @@ ggplot(data = mergeStepsSleep, aes(x=TotalSteps, y=TotalMinutesAsleep)) +
   theme(axis.text.x = element_text(angle = 45))+
   labs(title = "Steps vs Sleep")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/steps%20vs%20sleep.png)
 
 One would expect a direct relation between sleep and total steps. But it can be seen that there is an indirect relation i.e. more steps, less sleep and this trend can be seen from the slope.
 
@@ -138,7 +138,7 @@ ggplot(data = mergeStepsSleep, aes(x=TotalMinutesAsleep, y=Calories)) +
   theme(axis.text.x = element_text(angle = 45))+
   labs(title = "Sleep vs Calories")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/sleep%20vs%20calories.png)
 
 There is no relation between sleep and calories burned.
 
@@ -150,7 +150,7 @@ ggplot(data = dailyActivity, aes(x=VeryActiveMinutes, y=Calories)) +
   theme(axis.text.x = element_text(angle = 45))+
   labs(title = "Very active minutes vs calories")
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/Very%20active%20minutes%20vs%20calories.png)
 
 Most of the calories are burnt in active minutes only.
 
@@ -186,7 +186,7 @@ Out of 17 users, 15 users spend 45 mins in bed not asleep.
 ## Share
 [Dashboard](https://public.tableau.com/app/profile/siddhi.behere/viz/Bellabeatcasestudy_16896712052100/DashboardofBellabeatcasestudy)
 
-![ppt](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+[ppt](https://github.com/SiddhiBehere/Bellabeat-Case-Study/blob/main/Bellabeat%20case%20study.pptx)
 
 ## Act
 *Conclusion:*
